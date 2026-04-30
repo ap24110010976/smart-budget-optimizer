@@ -1,3 +1,4 @@
+[README (2).md](https://github.com/user-attachments/files/27252626/README.2.md)
 # 🛒 Smart Budget Shopping Optimizer
 
 > Maximize your shopping value within a limited budget using the **0/1 Knapsack Dynamic Programming** algorithm.
@@ -65,6 +66,48 @@ dp[i][w] = max(
 3. Add products, set a budget, toggle discounts, and click **"Find Best Shopping Plan"**.
 
 > No build tools, no frameworks — pure HTML + CSS + JavaScript.
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Home — Add Product & Budget Setup
+
+![Home Page](screenshots/screenshot_hero.png)
+
+The landing view features the **Add Product** form (name, price, value, category) alongside the **Budget & Discount** panel with a live slider and optional discount toggle.
+
+---
+
+### 📋 Product List
+
+![Product List](screenshots/screenshot_products.png)
+
+All added products are displayed in a responsive table showing price, value rating, category badge, and the computed **value/price efficiency ratio**.
+
+---
+
+### 📊 Optimization Results & Selected Products
+
+![Results Dashboard](screenshots/screenshot_results.png)
+
+After optimization, the dashboard shows **Total Cost**, **Total Value**, and **Budget Utilization %** as stat cards, followed by a progress bar and the list of **DP-selected products**.
+
+---
+
+### ⚔️ Greedy vs DP Comparison & Skipped Products
+
+![Greedy vs DP](screenshots/screenshot_comparison.png)
+
+A side-by-side comparison of **DP (Optimal)** vs **Greedy** total values. Below it, the **Skipped Products** section explains which items were excluded and why.
+
+---
+
+### 🧮 DP Table Visualization & Discount Impact
+
+![DP Table & Discount](screenshots/screenshot_dp_table.png)
+
+The full **DP Table** is rendered with scrollable columns showing the knapsack computation for each item × budget combination. Below it, the **Discount Impact Analysis** compares before vs after discount results.
 
 ---
 
