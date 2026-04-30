@@ -68,12 +68,6 @@ dp[i][w] = max(
 
 ---
 
-## 📸 Screenshots
-
-_Add your screenshots here._
-
----
-
 ## 🧠 Concepts Demonstrated
 
 - **Dynamic Programming** — Bottom-up tabulation for 0/1 Knapsack
